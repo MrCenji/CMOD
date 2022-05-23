@@ -1,0 +1,8 @@
+{
+  "parent": "cmod:custom/birch_table",
+  "textures": {
+    "all": "cmod:blocks/birch_planks",
+    "particle": "cmod:blocks/birch_planks",
+    "0": "cmod:blocks/birch_planks"
+  }
+}

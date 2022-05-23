@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cmod:aluminum_ore",
+    "cmod:granite_aluminum_ore",
+    "cmod:block_of_aluminum"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 2.0,
+    "cookingTime": 270,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Aluminum"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:AluminumShards"
+    },
+    "name": "smelt_aluminum",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_pressure_plate"
+    },
+    {
+      "item": "minecraft:jungle_fence"
+    }
+  ],
+  "result": {
+    "item": "cmod:jungle_table",
+    "count": 1
+  }
+}

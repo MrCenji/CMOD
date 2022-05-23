@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_pressure_plate"
+    },
+    {
+      "item": "minecraft:oak_fence"
+    }
+  ],
+  "result": {
+    "item": "cmod:oak_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "cmod:custom/jungle_table",
+  "textures": {
+    "all": "cmod:blocks/jungle_planks",
+    "particle": "cmod:blocks/jungle_planks",
+    "0": "cmod:blocks/jungle_planks"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 270,
+  "ingredient": {
+    "item": "cmod:aluminum_ore"
+  },
+  "result": "cmod:aluminum_shards"
+}

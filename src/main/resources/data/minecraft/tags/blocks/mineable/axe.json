@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "cmod:oak_table",
+    "cmod:spruce_table",
+    "cmod:birch_table",
+    "cmod:jungle_table",
+    "cmod:acacia_table",
+    "cmod:dark_oak_table"
+  ]
+}

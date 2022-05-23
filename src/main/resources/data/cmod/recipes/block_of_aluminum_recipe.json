@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cmod:aluminum_shards"
+    },
+    {
+      "item": "cmod:aluminum_shards"
+    },
+    {
+      "item": "cmod:aluminum_shards"
+    },
+    {
+      "item": "cmod:aluminum_shards"
+    },
+    {
+      "item": "cmod:aluminum_shards"
+    },
+    {
+      "item": "cmod:aluminum_shards"
+    },
+    {
+      "item": "cmod:aluminum_shards"
+    },
+    {
+      "item": "cmod:aluminum_shards"
+    },
+    {
+      "item": "cmod:aluminum_shards"
+    }
+  ],
+  "result": {
+    "item": "cmod:block_of_aluminum",
+    "count": 1
+  }
+}

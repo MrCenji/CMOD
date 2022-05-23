@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cmod:lightning_wand",
+    "cmod:explosive_wand",
+    "cmod:wizard_fire"
+  ]
+}

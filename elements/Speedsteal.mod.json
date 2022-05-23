@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Speedsteal",
+    "type": "WEAPON",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "CUSTOM:Levitator"
+      }
+    ],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:EnchantableWand"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "cmod:custom/acacia_table",
+  "textures": {
+    "all": "cmod:blocks/acacia_planks",
+    "particle": "cmod:blocks/acacia_planks",
+    "0": "cmod:blocks/acacia_planks"
+  }
+}

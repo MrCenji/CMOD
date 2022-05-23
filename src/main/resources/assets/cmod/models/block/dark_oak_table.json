@@ -1,0 +1,8 @@
+{
+  "parent": "cmod:custom/dark_oak_table",
+  "textures": {
+    "all": "cmod:blocks/dark_oak_planks",
+    "particle": "cmod:blocks/dark_oak_planks",
+    "0": "cmod:blocks/dark_oak_planks"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "enchantment.cmod.levitator": "Levitator",
+  "block.cmod.birch_table": "Birch Table",
+  "block.cmod.granite_aluminum_ore": "Granite Aluminum",
+  "item.cmod.aluminum_shards": "Aluminum Shards",
+  "block.cmod.aluminum_ore": "Aluminum",
+  "item.cmod.lightning_wand": "Lightning Wand",
+  "entity.cmod.wizard": "Wizard",
+  "item.cmod.wizard_fire": "Wizard Fire",
+  "item.cmod.explosive_wand": "Explosive Wand",
+  "block.cmod.acacia_table": "Acacia Table",
+  "block.cmod.oak_table": "Oak Table",
+  "block.cmod.block_of_aluminum": "Block Of Aluminum",
+  "block.cmod.spruce_table": "Spruce Table",
+  "item.cmod.enchantable_wand": "Enchantable Wand",
+  "item.cmod.wizard_spawn_egg": "Wizard Spawn Egg",
+  "enchantment.cmod.speedsteal": "Speedsteal",
+  "block.cmod.jungle_table": "Jungle Table",
+  "block.cmod.dark_oak_table": "Dark Oak Table"
+}

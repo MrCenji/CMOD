@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LightningWand"
+      },
+      {
+        "value": "CUSTOM:ExplosiveWand"
+      },
+      {
+        "value": "CUSTOM:WizardFire"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "wizard",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "mod_elements": [
+    {
+      "name": "LightningWand",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_wand"
+    },
+    {
+      "name": "LightningWandRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_wand_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wizard",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard"
+    },
+    {
+      "name": "WizardFireRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_fire_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WizardFire",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_fire"
+    },
+    {
+      "name": "WizardEntityIsHurt",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WizardLoot",
+      "type": "loottable",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_loot"
+    },
+    {
+      "name": "ExplosiveWandRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_wand_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveWand",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_wand"
+    },
+    {
+      "name": "WizardTag",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_tag"
+    },
+    {
+      "name": "Aluminum",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_ore"
+    },
+    {
+      "name": "GraniteAluminum",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_aluminum_ore"
+    },
+    {
+      "name": "SmeltAluminum",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_aluminum"
+    },
+    {
+      "name": "AluminumShards",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_shards"
+    },
+    {
+      "name": "SmeltGraniteAluminum",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_granite_aluminum"
+    },
+    {
+      "name": "BlockOfAluminum",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_aluminum"
+    },
+    {
+      "name": "BlockOfAluminumRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_aluminum_recipe"
+    },
+    {
+      "name": "OakTable",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_table"
+    },
+    {
+      "name": "SpruceTable",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_table"
+    },
+    {
+      "name": "BirchTable",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_table"
+    },
+    {
+      "name": "JungleTable",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_table"
+    },
+    {
+      "name": "AcaciaTable",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_table"
+    },
+    {
+      "name": "DarkOakTable",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_table"
+    },
+    {
+      "name": "OakTableRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_table_recipe"
+    },
+    {
+      "name": "SpruceTableRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_table_recipe"
+    },
+    {
+      "name": "BirchTableRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_table_recipe"
+    },
+    {
+      "name": "JungleTableRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_table_recipe"
+    },
+    {
+      "name": "AcaciaTableRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_table_recipe"
+    },
+    {
+      "name": "DarkOakTableRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_table_recipe"
+    },
+    {
+      "name": "Speedsteal",
+      "type": "enchantment",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedsteal"
+    },
+    {
+      "name": "EnchantableWandLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantable_wand_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnchantableWand",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantable_wand"
+    },
+    {
+      "name": "Levitator",
+      "type": "enchantment",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitator"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "enchantment.cmod.levitator": "Levitator",
+      "block.cmod.birch_table": "Birch Table",
+      "block.cmod.granite_aluminum_ore": "Granite Aluminum",
+      "item.cmod.aluminum_shards": "Aluminum Shards",
+      "block.cmod.aluminum_ore": "Aluminum",
+      "item.cmod.lightning_wand": "Lightning Wand",
+      "entity.cmod.wizard": "Wizard",
+      "item.cmod.wizard_fire": "Wizard Fire",
+      "item.cmod.explosive_wand": "Explosive Wand",
+      "block.cmod.acacia_table": "Acacia Table",
+      "block.cmod.oak_table": "Oak Table",
+      "block.cmod.block_of_aluminum": "Block Of Aluminum",
+      "block.cmod.spruce_table": "Spruce Table",
+      "item.cmod.enchantable_wand": "Enchantable Wand",
+      "item.cmod.wizard_spawn_egg": "Wizard Spawn Egg",
+      "enchantment.cmod.speedsteal": "Speedsteal",
+      "block.cmod.jungle_table": "Jungle Table",
+      "block.cmod.dark_oak_table": "Dark Oak Table"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cmod",
+    "modName": "cmod",
+    "version": "1.0.0",
+    "author": "cenji, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.cmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

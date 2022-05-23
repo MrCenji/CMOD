@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_pressure_plate"
+    },
+    {
+      "item": "minecraft:dark_oak_fence"
+    }
+  ],
+  "result": {
+    "item": "cmod:dark_oak_table",
+    "count": 1
+  }
+}
