@@ -31,7 +31,7 @@ import java.util.Collections;
 
 public class JungleTableBlock extends FallingBlock {
 	public JungleTableBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.GRAVEL).strength(2f, 3f).requiresCorrectToolForDrops()
+		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).strength(2f, 3f).requiresCorrectToolForDrops()
 				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 

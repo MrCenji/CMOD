@@ -13,7 +13,7 @@ import net.mcreator.cmod.procedures.LightningWandRightclickedOnBlockProcedure;
 
 public class LightningWandItem extends Item {
 	public LightningWandItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

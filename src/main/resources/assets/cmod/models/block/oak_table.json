@@ -3,6 +3,6 @@
   "textures": {
     "all": "cmod:blocks/oak_planks",
     "particle": "cmod:blocks/oak_planks",
-    "0": "cmod:blocks/oak_planks"
+    "0": "cmod:blocks/"
   }
 }
