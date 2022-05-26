@@ -11,6 +11,9 @@
     "compatibleEnchantments": [
       {
         "value": "CUSTOM:Speedsteal"
+      },
+      {
+        "value": "CUSTOM:Jumpsteal"
       }
     ],
     "compatibleItems": [

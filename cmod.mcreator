@@ -347,6 +347,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "levitator"
+    },
+    {
+      "name": "Jumpsteal",
+      "type": "enchantment",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpsteal"
     }
   ],
   "variable_elements": [],
@@ -361,6 +369,7 @@
       "item.cmod.lightning_wand": "Lightning Wand",
       "entity.cmod.wizard": "Wizard",
       "item.cmod.wizard_fire": "Wizard Fire",
+      "enchantment.cmod.jumpsteal": "Levitator",
       "item.cmod.explosive_wand": "Explosive Wand",
       "block.cmod.acacia_table": "Acacia Table",
       "block.cmod.oak_table": "Oak Table",

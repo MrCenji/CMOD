@@ -9,9 +9,9 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.mcreator.cmod.init.CmodModItems;
 import net.mcreator.cmod.init.CmodModEnchantments;
 
-public class LevitatorEnchantment extends Enchantment {
-	public LevitatorEnchantment(EquipmentSlot... slots) {
-		super(Enchantment.Rarity.RARE, EnchantmentCategory.WEAPON, slots);
+public class JumpstealEnchantment extends Enchantment {
+	public JumpstealEnchantment(EquipmentSlot... slots) {
+		super(Enchantment.Rarity.UNCOMMON, EnchantmentCategory.WEAPON, slots);
 	}
 
 	@Override
@@ -23,7 +23,7 @@ public class LevitatorEnchantment extends Enchantment {
 	protected boolean checkCompatibility(Enchantment ench) {
 		if (ench == CmodModEnchantments.SPEEDSTEAL.get())
 			return true;
-		if (ench == CmodModEnchantments.JUMPSTEAL.get())
+		if (ench == CmodModEnchantments.LEVITATOR.get())
 			return true;
 		return false;
 	}

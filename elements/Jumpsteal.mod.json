@@ -2,18 +2,18 @@
   "_fv": 28,
   "_type": "enchantment",
   "definition": {
-    "name": "Speedsteal",
+    "name": "Levitator",
     "type": "WEAPON",
-    "rarity": "RARE",
+    "rarity": "UNCOMMON",
     "minLevel": 1,
     "maxLevel": 3,
     "damageModifier": 0,
     "compatibleEnchantments": [
       {
-        "value": "CUSTOM:Levitator"
+        "value": "CUSTOM:Speedsteal"
       },
       {
-        "value": "CUSTOM:Jumpsteal"
+        "value": "CUSTOM:Levitator"
       }
     ],
     "compatibleItems": [

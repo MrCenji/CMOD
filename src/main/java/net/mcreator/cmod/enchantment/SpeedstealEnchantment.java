@@ -23,6 +23,8 @@ public class SpeedstealEnchantment extends Enchantment {
 	protected boolean checkCompatibility(Enchantment ench) {
 		if (ench == CmodModEnchantments.LEVITATOR.get())
 			return true;
+		if (ench == CmodModEnchantments.JUMPSTEAL.get())
+			return true;
 		return false;
 	}
 
