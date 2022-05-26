@@ -34,13 +34,13 @@ public class EnchantableWandLivingEntityIsHitWithToolProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 25, 3, (false), (false)));
 		}
 		if (EnchantmentHelper.getItemEnchantmentLevel(CmodModEnchantments.JUMPSTEAL.get(), itemstack) == 1) {
-			if (entity instanceof LivingEntity _entity)
+			if (sourceentity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 15, 1, (false), (false)));
 		} else if (EnchantmentHelper.getItemEnchantmentLevel(CmodModEnchantments.JUMPSTEAL.get(), itemstack) == 2) {
-			if (entity instanceof LivingEntity _entity)
+			if (sourceentity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 30, 2, (false), (false)));
 		} else if (EnchantmentHelper.getItemEnchantmentLevel(CmodModEnchantments.JUMPSTEAL.get(), itemstack) == 3) {
-			if (entity instanceof LivingEntity _entity)
+			if (sourceentity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 45, 3, (false), (false)));
 		}
 	}
