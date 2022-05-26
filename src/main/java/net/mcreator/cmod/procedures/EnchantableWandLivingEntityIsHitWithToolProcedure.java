@@ -15,13 +15,13 @@ public class EnchantableWandLivingEntityIsHitWithToolProcedure {
 			return;
 		if (EnchantmentHelper.getItemEnchantmentLevel(CmodModEnchantments.SPEEDSTEAL.get(), itemstack) == 1) {
 			if (sourceentity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 15, 1, (false), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 15, 2, (false), (false)));
 		} else if (EnchantmentHelper.getItemEnchantmentLevel(CmodModEnchantments.SPEEDSTEAL.get(), itemstack) == 2) {
 			if (sourceentity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 30, 2, (false), (false)));
 		} else if (EnchantmentHelper.getItemEnchantmentLevel(CmodModEnchantments.SPEEDSTEAL.get(), itemstack) == 3) {
 			if (sourceentity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 50, 3, (false), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2, (false), (false)));
 		}
 		if (EnchantmentHelper.getItemEnchantmentLevel(CmodModEnchantments.LEVITATOR.get(), itemstack) == 1) {
 			if (entity instanceof LivingEntity _entity)
