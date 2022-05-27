@@ -355,6 +355,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "jumpsteal"
+    },
+    {
+      "name": "RedSandDesert",
+      "type": "biome",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sand_desert"
     }
   ],
   "variable_elements": [],
@@ -374,6 +382,7 @@
       "block.cmod.acacia_table": "Acacia Table",
       "block.cmod.oak_table": "Oak Table",
       "block.cmod.block_of_aluminum": "Block Of Aluminum",
+      "biome.cmod.red_sand_desert": "Red Sand Desert",
       "block.cmod.spruce_table": "Spruce Table",
       "item.cmod.enchantable_wand": "Enchantable Wand",
       "item.cmod.wizard_spawn_egg": "Wizard Spawn Egg",
@@ -389,17 +398,20 @@
   "workspaceSettings": {
     "modid": "cmod",
     "modName": "cmod",
-    "version": "1.0.0",
-    "author": "cenji, MCreator",
+    "version": "0.0.1",
+    "description": "Mod created by Cenji",
+    "author": "cenji",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "cmod",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "SUBSCRIBE TO CENJI",
     "modElementsPackage": "net.mcreator.cmod",
     "lockBaseModFiles": false
   },

@@ -1,14 +1,18 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="cmod"
-version="1.0.0"
+version="0.0.1"
 displayName="cmod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="SUBSCRIBE TO CENJI"
 displayURL="https://mcreator.net"
-authors="cenji, MCreator"
+logoFile="logo.png"
+authors="cenji"
+description='''
+Mod created by Cenji
+'''
 
 [[dependencies.cmod]]
     modId="minecraft"
