@@ -31,7 +31,6 @@ import net.mcreator.cmod.init.CmodModFeatures;
 import net.mcreator.cmod.init.CmodModEntities;
 import net.mcreator.cmod.init.CmodModEnchantments;
 import net.mcreator.cmod.init.CmodModBlocks;
-import net.mcreator.cmod.init.CmodModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -56,8 +55,6 @@ public class CmodMod {
 		CmodModFeatures.REGISTRY.register(bus);
 
 		CmodModEnchantments.REGISTRY.register(bus);
-
-		CmodModBiomes.REGISTRY.register(bus);
 
 	}
 
